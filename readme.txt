@@ -1,3 +1,9 @@
+This project is a full-stack employee registration system built with React 19 on the frontend and ASP.NET Core 9 on the backend. The frontend, named employee-register-client, is created using Create React App, and communicates with the backend via Axios. It features a clean component-based architecture and uses modern testing libraries such as React Testing Library and Jest DOM for frontend testing. The app is optimized for modern browsers and provides a responsive user experience for registering, viewing, or managing employee data.
+
+The backend is a .NET 9 Web API project that handles all server-side logic, database interactions, and API endpoints. It uses Entity Framework Core 9 with support for both SQL Server and PostgreSQL, providing flexibility in database choices. The project also includes OpenAPI support, which enables automatic API documentation through Swagger. CORS is enabled, allowing the React frontend to interact with the API seamlessly during development and production. Overall, this setup creates a modern, scalable foundation for employee management applications.
+
+_________________________________________________________________________________________
+
 # 👨‍💼 Employee Register
 
 A fullstack application to register employees with image upload functionality, built using **React.js** for the frontend and **ASP.NET Core Web API** for the backend. SQL Server is used as the database with **Entity Framework Core** for ORM.

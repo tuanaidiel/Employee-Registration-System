@@ -1,0 +1,21 @@
+# Node / React
+node_modules/
+build/
+.env
+
+# Visual Studio / .NET
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+bin/
+obj/
+publish/
+
+# Database files
+*.db
+
+# OS files
+.DS_Store
+Thumbs.db
