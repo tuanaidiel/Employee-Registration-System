@@ -35,7 +35,7 @@ namespace EmployeeRegisterAPI.Controllers
                 EmployeeID = x.EmployeeID,
                 EmployeeName = x.EmployeeName,
                 Occupation = x.Occupation,
-                CGPA = x.CGPA,
+                StaffId = x.StaffId,
                 ImageName = x.ImageName,
                 ImageSrc = x.ImageName != null
                     ? $"{Request.Scheme}://{Request.Host}{Request.PathBase}/Images/{x.ImageName}"

@@ -22,8 +22,8 @@ namespace EmployeeRegisterAPI.Models
 
 
         [Required]
-        [Column(TypeName = "decimal(3,2)")]
-        public decimal CGPA { get; set; }
+        [Column(TypeName = "varchar(20)")]
+        public decimal StaffId { get; set; }
 
 
         [Column(TypeName = "nvarchar(100)")]
