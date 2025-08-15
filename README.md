@@ -2,6 +2,9 @@
 
 A fullstack application to register employees with image upload functionality, built using **React.js** for the frontend and **ASP.NET Core Web API** for the backend. SQL Server is used as the database with **Entity Framework Core** for ORM.
 
+![Alt text](general/ss11.png)
+![Alt text](general/ss22.png)
+
 ---
 
 ## 🚀 Features
